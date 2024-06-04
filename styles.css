@@ -1,7 +1,22 @@
 body {
     display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+}
+
+.individualBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+    border-style: inset;
 }
