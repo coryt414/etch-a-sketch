@@ -1,22 +1,36 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    align-items: center;
 }
 
 .button {
     display: flex;
     justify-content: center;
+    margin: 16px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+    width: 1000px;
+    
+}
+
+.rowDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
 }
 
 .individualBox {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 75px;
+    flex: 1;
+    height: 100%;
     border-style: inset;
 }
